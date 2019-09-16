@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root> 
+  <admin id="1" pwd="123456" name="李四" flag="2" sex="男" borntime="2015-02-20" email="dsa" phone="14864564" address="sdsdasd" postalcode="305400" registertime="2017-02-03 12:14:20"/>  
+  <admin id="2" pwd="2" name="2" flag="2" sex="女" borntime="1990-08-14" email="877126288@qq.com" phone="123456789" address="?????" postalcode="350800" registertime="2017-02-03 12:14:20"/>  
+  <admin id="3" pwd="3" name="3" flag="2" sex="女" borntime="1990-08-14" email="877126288@qq.com" phone="123456789" address="?????" postalcode="350800" registertime="2017-02-03 12:14:20"/>  
+  <admin id="4" pwd="4" name="4" flag="2" sex="女" borntime="1990-08-14" email="877126288@qq.com" phone="123456789" address="?????" postalcode="350800" registertime="2017-02-03 12:14:20"/> 
+</root>

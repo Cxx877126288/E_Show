@@ -1,0 +1,44 @@
+.detailed{
+    margin-top: 8%;
+    width: 70%;
+    height: 100%;
+    margin-left: 23%;
+}
+.detailed .goodsname{
+    width: 64%;
+    height: 10%;
+    font-size: 150%;
+    padding-left: 5%;
+    margin-top: 3%;
+    color:#ff4400;
+}
+.detailed .photo{
+    width: 30%;
+    height: 50%;
+    border: 1px solid #e8e8e8;
+}
+.detailed .buybtn{
+    width: 69%;
+    height: 7%;
+
+}
+
+.detailed .buybtn >input{
+    height: 80%;
+    border-radius: 3px;
+    border: 0px;
+    font-weight: bold;
+    font-size: 120%;
+    margin-left: 5%;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-modify: read-write-plaintext-only;
+    outline: none;
+}
+
+.detailed .infor{
+    width: 100%;
+    height: 10%;
+    margin-top: 2%;
+    font-size: 110%;
+}

@@ -1,0 +1,65 @@
+.goodsmainpage {
+    width: 100%;
+}
+
+.goodsmainpage .goods {
+    margin-top: 1%;
+    margin-left: 3%;
+    width: 28%;
+    height: 30%;
+    border: 0px ;
+}
+
+.goodsmainpage .goods .photo {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    height: 65%;
+    border: 1px solid red;
+}
+
+.goodsmainpage .goods .photo >img{
+    width: 100%;
+    height: 100%;
+}
+
+.goodsmainpage .goods .info {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 4%;
+    font-size: 12px;
+    color: red;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.goodsmainpage .goods .price{
+    width: 13%;
+    margin-top: 5%;
+    color: red;
+}
+.goodsmainpage .goods .mybutton{
+    margin-left: 22%;
+    width: 65%;
+    margin-top: 4%;
+
+}
+.goodsmainpage .clpage {
+    width:100%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.goodsmainpage .clpage >a{
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.goodsmainpage .clpage :hover{
+    color: red;
+}
