@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="dataSouce" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/eshop?serverTimezone=GMT%2B8&amp;"></property>
+        <!--useSSL=false-->
+        <property name="username" value="root"/>
+        <property name="password" value="qazplm134679"/>
+    </bean>
+
+    <bean id="factory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSouce"/>
+    </bean>
+
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 要扫描哪个包 -->
+        <property name="basePackage" value="com.gcxy.mapper"/>
+        <!-- 和factory产生关系 -->
+        <property name="sqlSessionFactory" ref="factory"/>
+    </bean>
+
+    <!-- 由spring管理service实现类 -->
+    <bean id="buyuserService" class="com.gcxy.service.impl.BuyuserServiceImpl">
+        <property name="buyuserMapper" ref="buyuserMapper"></property>
+    </bean>
+
+    <bean id="categoryService" class="com.gcxy.service.impl.CategoryServiceImpl">
+        <property name="categoryMapper" ref="categoryMapper"></property>
+    </bean>
+
+    <bean id="secondcaService" class="com.gcxy.service.impl.SecondacaServiceImpl">
+        <property name="secondcaMapper" ref="secondcaMapper"></property>
+    </bean>
+
+    <bean id="goodsService" class="com.gcxy.service.impl.GoodsServiceImpl">
+        <property name="goodsMapper" ref="goodsMapper"></property>
+    </bean>
+
+    <bean id="buycarService" class="com.gcxy.service.impl.BuycarServiceImpl">
+        <property name="buycarMapper" ref="buycarMapper"></property>
+    </bean>
+
+    <bean id="loginTimeService" class="com.gcxy.service.impl.LoginTimeServiceImpl">
+        <property name="loginTimeMapper" ref="loginTimeMapper"></property>
+    </bean>
+
+    <bean id="accountService" class="com.gcxy.service.impl.AccountServiceImpl">
+        <property name="accountMapper" ref="accountMapper"></property>
+    </bean>
+</beans>
