@@ -193,7 +193,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1180" />
@@ -583,7 +583,7 @@
       <workItem from="1568255801430" duration="69000" />
       <workItem from="1568603016731" duration="526000" />
       <workItem from="1568614342188" duration="339000" />
-      <workItem from="1568618629813" duration="905000" />
+      <workItem from="1568618629813" duration="1872000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1568619130566</created>
@@ -596,7 +596,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="525449000" />
+    <option name="totallyTimeSpent" value="526416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -622,8 +622,8 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.81315106" weight="0.38987687" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Spring" order="13" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32956153" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20710456" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31917807" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20117188" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
